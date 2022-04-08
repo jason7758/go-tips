@@ -12,5 +12,6 @@ func BenchmarkUseMutex(b *testing.B) {
 func BenchmarkUseChan(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		UseChan()
+
 	}
 }
